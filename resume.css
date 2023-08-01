@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 99vw;
+  color: white;
+  background-color: rgb(75, 56, 56);
+}
+h1 {
+  text-align: center;
+}
+.navigation ul {
+  text-align: right;
+
+}
+.navigation ul li {
+  display: inline-block;
+  margin: 5px;
+  padding: 3px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navigation ul li a:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 3px;
+}
+body {
+  background-color: rgb(226, 182, 117);
+  
+}
+.container {
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: blanchedalmond;
+}
+.box {
+  margin: 25px;
+  padding: 10px;
+  font-size: large;
+  border: 5px solid rgb(83, 40, 40);
+  border-radius: 10px;
+}
+.box legend{
+  font-size: 30px;
+  
+}
+#education li{
+  margin: 10px;
+  font-weight: bold;
+}
+#education li p{
+  font-weight: normal;
+  margin-left: 50px;
+}
+#projects li{
+  margin: 10px;
+}
+#projects li p{
+  margin-left: 30px;
+}
+#resume {
+  font-size: 50px;
+  font-weight:bold;
+}
+
+.fa-file{
+    font-size: 70px;
+}

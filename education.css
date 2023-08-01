@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./images/education.webp");
+  width: vw;
+  background-size: 100%;
+
+}
+header {
+  width: 100vw;
+  color: white;
+  background-color: #b26464;
+}
+h1 {
+  display: inline-block;
+}
+.navigation ul {
+  text-align: right;
+}
+.navigation ul li {
+  display: inline-block;
+  margin: 5px;
+  padding: 3px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navigation ul li a:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+main{
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 50px;
+  width: 50%;
+  background-color: #cbbf53;;
+}
+.classes{
+  margin: 30px;
+}
+
+.classes h2{
+  font-size: 30px;
+}
+.classes ul li{
+  font-size: 20px;
+  font-style:italic;
+  
+}
+
+.fa-user-graduate{
+  font-size: 40px;
+}

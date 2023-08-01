@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-image: url(./images/index.webp);
+    background-repeat: no-repeat;
+}
+
+header{
+     /* background-color: rgba(19, 4, 114, 0.842); */
+     background-color: #0002ff;
+     background-image: linear-gradient(225deg, #0002ff 0%, #784BA0 50%, #2B86C5 100%);
+     
+     
+
+    width: 100vw;
+    color:white
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h1 span{
+
+    color:#e6ff00;
+}
+.navigation ul{
+    text-align: right;
+    
+}
+.navigation ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 3px;
+    
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation ul li a:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+ 
+#home{  
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    
+}
+
+#info{
+    font-size: 3em;
+    color: white;
+    padding-top: 40px;
+}
+#info span{
+    font-weight: bold;
+    color: rgb(0 224 255);
+}
+.manlogo img{
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 15em;
+    margin-left: 30px;
+    
+}
+
+.fa-house{
+    font-size: 40px;
+}
+footer{
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.fa-linkedin , .fa-square-twitter , .fa-github , .fa-envelope , .fa-phone{
+    font-size: 50px;
+    margin: 10px;
+    transition: all 0.4s linear 0s;
+}
+
+footer a{
+    text-decoration:none;
+    
+}
+footer a i{
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid white;
+    background-color:bisque;
+    border-radius: 50%;
+}
+
+.fa-linkedin:hover , .fa-square-twitter:hover , .fa-github:hover , .fa-envelope:hover , .fa-phone:hover{
+    transform: scale(1.2);
+}
